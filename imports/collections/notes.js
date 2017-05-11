@@ -42,4 +42,4 @@ Meteor.methods({
 	'note.delete': id => Note.remove(id)
 })
 
-//NEXT: Head back to /imports/components/containers/homepage_container.js
+
