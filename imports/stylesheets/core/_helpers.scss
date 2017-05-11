@@ -1,0 +1,24 @@
+
+
+.helper-centered {
+	text-align: center;
+}
+.helper-full-width {
+	width: 100%;
+}
+.helper-left-padding {
+	padding-left: 1em;
+}
+.helper-top-padding {
+	padding-top: 1em;
+}
+
+.helper-bottom-spacing {
+	margin-bottom: 1em;
+}
+.helper-clickable {
+  &:hover {
+    cursor: pointer;
+		border:1px solid white;
+  }
+}

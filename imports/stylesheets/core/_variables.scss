@@ -1,0 +1,52 @@
+
+$app-container-max-width:           40em;
+$app-container-min-width:           15em;
+$app-container-left-right-padding:   2em;
+
+
+$app-header-height:                 4em;
+
+$main-content-top-bottom-padding:   1em;
+
+
+$list-item-padding:             1em;
+$li-margin-bottom:            .35em;
+
+$btn-main-max-width:            8em;
+$btn-dflt-size:               1.5em;
+$btn-small:                     1em;
+
+
+$primary-color-dark:        #012;
+$primary-color:             #FFD700;
+$primary-color-light:       #C5CAE9;
+$primary-color-text:        #FFFFFF;
+$accent-color:              #03A9F4;
+$primary-text-color:        #FFD700;
+$secondary-text-color:      #FFD700;
+$divider-color:             #B6B6B6;
+
+
+$color-gray-10:             #FAFAFA;
+$color-gray-9:              #F5F5F5;
+$color-gray-8:              #012;
+$color-gray-7:              #E0E0E0;
+$color-gray-6:              #BDBDBD;
+$color-gray-5:              #9E9E9E;
+$color-gray-4:              #757575;
+$color-gray-3:              #616161;
+$color-gray-2:              #424242;
+$color-gray-1:              #212121;
+
+$base-bg-color:              #FFFFFF;
+$base-font-color:           $color-gray-1;
+$app-container-bg-color:    #012;
+$link-color:                $primary-color;
+$divider-line:              1px solid $color-gray-7;
+$icon-color:                $secondary-text-color;
+$icon-color-inverted:       $color-gray-10;
+
+
+$base-font:                 "proxima-nova", 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+$base-font-size:            1.2em;
+$heading-1:                 1.25em;

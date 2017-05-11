@@ -1,0 +1,36 @@
+//This is an example of a mini css framework.  It's created from scratch, rather than using something like Bootstrap.  One of the biggest mistakes you can make when learning to code is to rely on CSS frameworks.  If you do that, you're not going to learn how to write your own css and how css actually works.
+
+// I think this is a pretty decent css structure.  It is loosely based on the 'smaccs' structure - learn more at https://smacss.com/
+
+//Here, we have one 'master' stylesheet and then import other 'partial' stylesheets into this one. The order in which we import matters.
+
+// This css uses Sass, which is a CSS pre-processor. Learn more at http://sass-lang.com/
+// To use it, you'll need to install a Sass package.  I recommend this one, which also gives you support for autoprefixing: https://github.com/fourseven/meteor-scss/
+
+// ******* CORE ******* 
+@import "core/normalize"; // "makes browsers render all elements more consistently and in line with modern standards" - https://necolas.github.io/normalize.css/
+@import "core/base";
+@import "core/variables";
+@import "core/helpers";
+
+// *******  LAYOUTS  *******
+@import "layouts/flex_layouts";
+@import "layouts/full_height";
+@import "layouts/app_container";
+@import "layouts/app_header";
+@import "layouts/main_content";
+
+// ******* COMPONENTS *******  
+@import "components/buttons";
+@import "components/forms";
+@import "components/lists";
+
+// ******* THEME *******  
+@import "theme/text";
+@import "theme/colors";
+
+// ******* VENDOR (3rd party styling) ******* 
+@import "vendor/loader";
+
+
+//NEXT: Take a minute to browse through some of the css files, then let's look at our routes file, where we define the pages and URLs in our app. Go to /imports/startup/client/routes.jsx

@@ -1,0 +1,36 @@
+body {
+  font-size: $base-font-size;
+  font-family: $base-font;
+  font-weight: 300;
+}
+
+h1 {
+	font-size: $heading-1;
+}
+
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+.material-icons {
+  font-size: $btn-dflt-size;
+}
+
+.text-btn{
+  font-size: $btn-dflt-size;
+}
+
+.icon-btn{
+
+  &.btn-small {
+    .material-icons {
+      font-size: $btn-small;
+    }
+  }
+}

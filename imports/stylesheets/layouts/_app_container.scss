@@ -1,0 +1,11 @@
+#app-container {
+  max-width: $app-container-max-width;
+  min-width: $app-container-min-width;
+  margin-top: 50px ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  box-shadow: -5px -5px 25px 1px rgba(0, 0, 0, 0.6);
+  border:0.7px solid rgba(0, 0, 0, 0.2);
+  border-radius:7px;
+}

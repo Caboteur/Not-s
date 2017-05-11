@@ -1,0 +1,86 @@
+
+
+body {
+  background-color: $base-bg-color;
+  color: $base-font-color;
+}
+
+#app-container {
+  background-color: $app-container-bg-color;
+}
+
+
+body {
+  color: $primary-text-color;
+}
+.help-text {
+  color: $secondary-text-color;
+}
+
+
+a {
+  color: $link-color;
+
+  &:link, &:visited, &:active {
+    color: $link-color;
+  }
+}
+
+
+
+.list {
+  & > li {
+    border-bottom: $divider-line;
+  }
+}
+
+.color-invisible-textarea {
+  outline: none;
+  resize: none;
+  border:none;
+}
+
+
+
+.icon-btn {
+  color: $icon-color;
+
+  &:hover {
+    color: darken($icon-color, 20%);
+  }
+}
+.btn-main {
+   background-color:$primary-color;
+   color: $base-bg-color;
+}
+.color-inverted {
+  background-color: $primary-color-dark ;
+  color: $base-bg-color;
+
+  .icon-btn {
+    color: $icon-color-inverted;
+
+    &:hover {
+      color: darken($icon-color-inverted, 20%);
+    }
+  }
+}
+
+
+.clickable-pill {
+  border-radius: .25em;
+  background-color: $color-gray-8;
+  padding: .5em;
+}
+
+
+.color-top-divider {
+  border-top: $divider-line;
+}
+
+
+#app-header #login-buttons {
+  .login-link-text {
+    color: $base-bg-color;
+  }
+}

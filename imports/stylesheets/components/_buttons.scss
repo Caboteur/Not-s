@@ -1,0 +1,22 @@
+.btn-main {
+  width: 100%;
+  max-width: $btn-main-max-width;
+}
+
+.icon-btn{
+  background-color: transparent;
+  border:none;
+
+  margin:0;
+  padding: 0;
+  text-align: center;
+
+  &:focus {
+   outline: 0;
+  }
+  &.btn-small {
+    .material-icons {
+      font-size: $btn-small;
+    }
+  }
+}
